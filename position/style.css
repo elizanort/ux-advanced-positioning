@@ -1,1 +1,22 @@
-/* Add your CSS Below */
+.one div:nth-child(2){
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+
+}
+.three-a{
+    position: relative;
+    display: flex;
+
+}
+
+.two div:last-child{
+    position: absolute;
+    top: 410px;
+    left: 232px;
+}
+
+.three div:first-child{
+    position: fixed;
+    left: 60%;
+}
